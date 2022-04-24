@@ -1,0 +1,50 @@
+.main2{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+}
+.inputs input{
+    margin-left: -8%;
+    margin-right: 27%;
+    margin-bottom: 12%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.inputs{
+    margin-top: 32%;
+}
+.memebtn{
+    background: purple;
+padding: 14px;
+border-radius: 12px;
+}
+.memepic{
+    height: 41vh;
+width: 22vw;
+margin-bottom: 7%;
+margin-top: 6%;
+opacity: .4;
+}
+
+/* for the upper and below text */
+.upper{
+   
+        position: absolute;
+        font-size: 34px;
+        z-index: 5;
+        top: 42%;
+        font-weight: bold;
+    
+}
+.below{
+   
+        position: absolute;
+        font-size: 34px;
+        z-index: 5;
+        top: 57%;
+        font-weight: bold;
+    
+}
